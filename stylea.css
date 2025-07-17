@@ -1,0 +1,89 @@
+ body{
+            margin: 0;
+            padding: 0;
+            background: url(background1.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+            
+        #header{
+               padding: 15px;
+               height: 60px;
+                display: flex;
+                color:aliceblue;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 20px;
+                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             }
+
+           #page{
+                padding: 10px;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                column-gap:25px;
+                font-size: 20px;
+                text-decoration: none;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           }
+
+             a:hover{
+                color: black;
+
+             }
+             #pages{
+                display: flex;
+                align-items:center;
+                column-gap:30px;
+             }
+
+             #first{
+                color: aliceblue;
+                font-size: 30px;
+                
+             }
+             .parent{
+                color:white;
+                font-size: 20px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+             img{
+                width: 350px;
+                height:250px;
+                border: 1px double white;
+               border-radius: 10px;
+                
+            }
+            
+              .cent{
+                color: white;
+                font-size: 14px;
+               text-align: justify;
+               width: 350px;
+               float: left;
+               margin-left: 70px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+              }
+
+              .cent1{
+                color: rgb(255, 255, 255);
+                font-size: 14px;
+               text-align: justify;
+               width: 350px;
+              float: right;
+               margin-right: 70px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              }
+
+               .cent2{
+                color: rgb(253, 253, 253);
+                font-size: 14px;
+               text-align: justify;
+               width: 350px;
+              float: right;
+               margin-right: 150px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               
+               }

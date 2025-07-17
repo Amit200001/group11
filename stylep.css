@@ -1,0 +1,122 @@
+ body{
+            margin: 0;
+            padding: 0;
+            background: url(earth1.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+                     
+        }
+         a:hover{
+                color: black;
+
+             }
+
+        #header{
+                padding: 15px;
+               height: 60px;
+                color:aliceblue;
+                align-items: center;
+                justify-content: space-between;
+                background-repeat: no-repeat;
+                font-size: 20px;
+                display:flex;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               }                      
+                
+
+           #page{
+                padding: 10px;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                column-gap:25px;
+                font-size: 20px;
+                text-decoration: none;
+                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               }
+             
+             #pages{
+                display: flex;
+                align-items:center;
+                column-gap:30px;
+             }
+
+             .first{ 
+               background:url(astronaut.jpg) ;
+               width: 300px;
+               height: 300px;
+               background-position: center;
+               border: 1px solid white;
+               border-radius: 50%;
+               margin: 20px;
+               color: white;
+               float:left;
+               
+               
+             }
+             .fir{
+               color: white;
+               font-size: 20px;
+               text-align: justify;
+               width: 950px;
+               height: 500px;           
+               float: left;
+               margin-left: 100px;
+               font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+               
+               
+              
+             }
+         
+             .second{ 
+              background:url(secondp.jpg) ;
+               width: 300px;
+               height: 300px;
+               background-position: center;
+               border: 1px solid white;
+               border-radius: 50%;
+               margin: 20px;
+               color:white;
+               float:right;
+               
+      
+            }
+            .sec{
+                color: white;
+               font-size: 20px;
+               text-align: justify;
+               width: 950px;
+               height: 500px; 
+               float: right;
+               margin-right: 100px;
+               font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                
+            }
+
+            .third{ 
+              
+               background:url(industry.jpg) ;
+               width: 300px;
+               height: 300px;
+               border-radius: 50%;
+               background-position: center;
+               border: 1px solid white;
+               margin: 20px;
+               color:white;
+               float:left;
+               
+               
+      
+            }
+            .thr{
+               color: white;
+               font-size: 20px;
+               text-align: justify;
+               width: 950px;
+               height: 500px; 
+               float: left;
+               margin-left: 100px;
+               font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                
+            }
+            
